@@ -2,7 +2,7 @@ I have used tanh as the activation function. The loss function is represented al
       [3.0, 4.0]]``` are the two inputs passed to the network, and ```[0.9, -0.04]``` are the expected outputs for the corresponding inputs.
 This is the starting network with 2 nodes in the input layer and 1 node in the output layer:![image](https://github.com/sambhavKhanna/MLP/assets/125531539/ccad4b13-caf5-4e05-b426-18d6bb21b613)
 This is the network after one backward pass:![image](https://github.com/sambhavKhanna/MLP/assets/125531539/a5b0c270-49de-4ae8-9736-76f5e8d8df07)The gradients have been updated.
-The final network after 20 iterations of gradient descent is:![image](https://github.com/sambhavKhanna/MLP/assets/125531539/71ccd338-59da-49e6-903d-421d74cf835b)
+The final network after 20 iterations of gradient descent with a constant step size of ```0.05``` is:![image](https://github.com/sambhavKhanna/MLP/assets/125531539/71ccd338-59da-49e6-903d-421d74cf835b)
 The initial prediction was ```[-0.0986, -0.8374]``` and after 20 iterations it is ```[0.8604858134000907, -0.48475656988391974]``` with a loss of ```0.14886848744469197```. These are the values for the loss function at each iteration:
 ```
 0 Value(data=1.4523656443334825)
